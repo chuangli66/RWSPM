@@ -7,7 +7,8 @@ Folder compared_method:
 -	The folder contains five subdirectories (code_GBJ, code_AdaMant, code_Rdcov, code_sKPCR, code_fvGWAS), each corresponding to one of the compared methods. 
 - 	Code “Y_slide.R” is used for image partitioning and 					serves for the five compared methods in simulation.
 
-Folder Simu_setting: stores the simulation setting codes: “sim_s1.py” generates the data under the null hypothesis; “sim_s2.py”, “sim_s3.py”, and “sim_s4.py” generate data for Model 1 of manuscript under different parameter settings. “sim_s5_x2.py”, “sim_s6_x2.py”, and “sim_s7_x2.py” generate data for Model 2 of manuscript under different parameter settings. 
+Folder Simu_setting: 
+- This folder stores the simulation setting codes: “sim_s1.py” generates the data under the null hypothesis; “sim_s2.py”, “sim_s3.py”, and “sim_s4.py” generate data for Model 1 of manuscript under different parameter settings. “sim_s5_x2.py”, “sim_s6_x2.py”, and “sim_s7_x2.py” generate data for Model 2 of manuscript under different parameter settings. 
 
 Folder code_simu_result:
 -	Code “DOR.R” generates box plots for six compared methods under settings 2-7, all results are summarized in Figure4 of manuscript.
