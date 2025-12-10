@@ -1,5 +1,3 @@
-README
-Code file documentation
 Folder code_RWSPM: contains all core functions for imposing “RegionWise Statistical Parametric Mapping”.
    - Function RWSPM in “EWSPM.R” performs regional partitioning, distribution aggregation within each sub-region, and region-wise independence test.
    - Function RW.MTCCT in “EWSPM.R” identifies spatially contiguous regions where multiple adjacent subregions exhibit moderate but collectively meaningful associations.
