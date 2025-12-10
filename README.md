@@ -19,10 +19,14 @@
 -  Due to data privacy and storage limitations, we did not put the
 original genotype data from ADNI online. Instead, a general illustrative set of scripts is included in the code_realdata folder, providing the code necessary to reproduce the real-data analysis 	presented in Section 5 of manuscript.
 -	Before the performing the data application, the following input files are required:
-1.The genetic data file (in our case, named as ADNI_1_3.RData),
-2.The phenotype data files (in our case, named as left_hipp_ori.Rdata and right_hipp_ori.Rdata),
-3.The covarites information file (in our case, named as covarites_inf.Rdata),
-4.The genetic data information file including chr, SNP, position, Alleles (in our case, named as snp_inf1_3.Rdata).
+
+   1.The genetic data file (in our case, named as ADNI_1_3.RData),
+
+   2.The phenotype data files (in our case, named as left_hipp_ori.Rdata and right_hipp_ori.Rdata),
+
+   3.The covarites information file (in our case, named as covarites_inf.Rdata),
+
+   4.The genetic data information file including chr, SNP, position, Alleles (in our case, named as snp_inf1_3.Rdata).
 
 ### Step 1. 
 - 	Run “processing_realdata.R” to perform preprocessing of the phenotype data including regional partitioning, adjustment for covariate effects, and other related preparatory procedures.
